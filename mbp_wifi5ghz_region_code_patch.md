@@ -17,7 +17,7 @@ To solve the MBP connection to 5GHz WiFi issue (wrong region code):
     - wait couple minutes (kext cache refresh) 
 2. enable System Integrity Protection(SIP)
     -  reboot with Cmd+R
-    -  run terminal
+    -  run in terminal
         ``` bash 
         csrutil enable
         ```
