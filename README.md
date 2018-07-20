@@ -10,5 +10,7 @@ Alfred 3 workflow to run ffmpeg convertation for each selected file
 To solve the MBP connection to 5GHz WiFi issue (wrong region code)
 
 ## delete old TimeMachine backups
+``` bash
 > sudo su
-> IFS=$'\n';for f in $(tmutil listbackups | grep '2017'); do tmutil delete "$f"; done
+> IFS=$'\n';for f in \$(tmutil listbackups | grep '2017'); do tmutil delete "$f"; done
+```
